@@ -1,5 +1,6 @@
 use std::fs::File;
 use std::io::prelude::*;
+use rand::prelude::*;
 
 fn main() -> std::io::Result<()> {
     let mut rng = rand::thread_rng();
